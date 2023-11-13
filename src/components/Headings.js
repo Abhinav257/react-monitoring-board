@@ -84,14 +84,14 @@ function Heading() {
           }}
           src="https://w7.pngwing.com/pngs/447/446/png-transparent-elon-musk-tesla-motors-tesla-model-3-spacex-tesla-company-car-transport-thumbnail.png
     "
-        />{" "}
+        />
         <div>
           <div
             style={{ marginTop: "5px", marginLeft: "3px", fontSize: "14px" }}
           >
-            {" "}
+            
             Elon Musk
-          </div>{" "}
+          </div>
           <p
             style={{
               marginLeft: "3px",
