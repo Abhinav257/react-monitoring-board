@@ -112,7 +112,7 @@ const Placeholder = styled.span`
 `;
 
 const riskLevel = ({ onChange }) => {
-  const triggerReasons = ["Low", "Medium", "High"];
+  const riskLevels = ["Low", "Medium", "High"];
   const [selectedOption, setSelectedOption] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const toggleDropdown = () => {
@@ -142,7 +142,7 @@ const riskLevel = ({ onChange }) => {
         <Placeholder className="current">Risk Level</Placeholder>
       )}
       <OptionList className="list">
-        {triggerReasons.map((reason, index) => (
+        {riskLevels.map((reason, index) => (
           <OptionItem
             key={index}
             className={`option ${selectedOption === reason ? "selected" : ""}`}
