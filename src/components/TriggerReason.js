@@ -110,7 +110,7 @@ const Placeholder = styled.span`
   background: var(--background-raised, #f5f5f5);
 `;
 
-const RiskLevel = ({ onChange }) => {
+const triggerReasons = ({ onChange }) => {
   const triggerReasons = ["FIFO", "IP Change"];
   const [selectedOption, setSelectedOption] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -156,4 +156,4 @@ const RiskLevel = ({ onChange }) => {
   );
 };
 
-export default RiskLevel;
+export default triggerReasons;
