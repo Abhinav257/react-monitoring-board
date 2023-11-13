@@ -60,6 +60,7 @@ function CloseAccountForm({ setFormOpen }) {
     <div
       style={{
         position: "fixed",
+        zIndex:"10",
         top: "0",
         left: "0",
         width: "100%",
