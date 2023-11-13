@@ -1,0 +1,136 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  font-family: Lettera Text LL;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content-table thead tr {
+  background-color: #c8c8c8;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #c8c8c8;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #c8c8c8;
+}
+.User-1 {
+  color: #777676;
+  font-size: 12px;
+  font-family: Lettera Text LL;
+  font-weight: 500;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.User-0 {
+  color: #050505;
+  font-size: 14px;
+  font-family: Lettera Text LL;
+  font-weight: 500;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+.Risklevel-0 {
+  color: #050505;
+  font-size: 33px;
+
+  line-height: 18px;
+  word-wrap: break-word;
+}
+.Medium {
+  color: var(--content-on-warning, #88670f);
+
+  font-family: Lettera Text LL;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+.Low {
+  color: var(--content-on-success, #006540);
+
+  font-family: Lettera Text LL;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+.High {
+  color: var(--content-on-error, #7d2424);
+
+  font-family: Lettera Text LL;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+.Triggerreason-0 {
+  color: var(--content-primary, #050505);
+
+  font-family: Lettera Text LL;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.Inqueuefor-0 {
+  color: var(--content-primary, #050505);
+
+  font-family: Lettera Text LL;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.Dateaddedon-0 {
+  color: var(--content-secondary, #777676);
+
+  font-family: Lettera Text LL;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.Previouslyreviewed-0 {
+  color: var(--content-primary, #050505);
+
+  font-family: Lettera Text LL;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.Previouslyreviewed-1 {
+  color: var(--content-secondary, #777676);
+
+  font-family: Lettera Text LL;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
