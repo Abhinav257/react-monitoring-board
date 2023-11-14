@@ -1,2 +1,2 @@
 # react-monitoring-board
-Created with CodeSandbox
+Monitoring Board created with React
